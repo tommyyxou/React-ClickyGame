@@ -1,15 +1,18 @@
 .ImageBoxStyle {
-  margin-top: 50px;
-
+  margin-top: 70px;
 }
 
 .scoreStyle {
-    z-index: 100;
-    position: fixed;
-    top: 0;
-    height: 30px;
-    width: 98%;
-    background-color: grey
+  font-family: 'Montserrat', sans-serif;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  padding: 15px;
+
+  width: calc(100% - 30px);
+  background-color: grey;
+  border-bottom: solid 10px white;
+  border-top: solid 10px white
 
 }
 
